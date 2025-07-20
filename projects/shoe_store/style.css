@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+            width: 100%;
+            height: 100%;
+}
+#main{
+           width: 100%;
+           height: 100%;
+           display: flex;
+    
+}
+#left{     
+            height: 100%;
+            width: 30%;
+            background-color:rgb(191, 93, 57);
+            color: #fff;
+            padding-left: 30px;
+}
+#left > h1{      position: absolute;
+               top: 20%;
+               font-size: 50px;
+               letter-spacing: 2px;
+}
+h1 span{           position: absolute;
+                  font-size: 43px;
+                  font-weight: 500;
+                  top: -80%;
+                  letter-spacing: 2px;
+}
+#left h2{      position: absolute;
+               top: 30%;
+               font-size: 30px;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}#left h2 span{    
+    font-size: 30px;
+           font-weight: 350;
+}
+#left h4{
+             position: relative;
+             top: 40%;
+             font-weight: 80;
+             line-height: 22px;
+             width: 270px;
+             height: 40px;
+             
+}
+#left button{      position: absolute;
+    top: 60%;
+    font-size: 18px;
+    padding: 4px;
+}
+#left button:hover{
+               font-size: 25px;
+          cursor:pointer
+}
+#left #btm{ 
+             position: absolute;
+             bottom: 5%;
+             width: 270px;
+             background-color: #fff;
+             color: black;
+             padding: 20px;
+                  
+}
+#left #btm span{
+                color: orangered;
+                font-size: 22px;
+                font-weight: 700;
+}
+
+#right{ 
+     position: relative;
+       height: 100%;
+        width: 70%;
+        background-color:#cdcdcd;
+}
+#right #img{
+             position: absolute;
+              left: -18%;
+              width: 50%;
+              top: 24%;
+              transform:translate(-50%,-50%);
+              transform: rotate(-20deg);            
+}#right #details{
+                    position: absolute;
+                    top: 35%;
+                    left: 60%;
+                    transform: translate(-50%,-50%);
+                    width: 350px;
+}#details > h1{
+                 font-size:62px;
+                 font-weight: 800;
+                 color: orangered;
+}
+#details h1 span{  font-size: 50px ;
+                   position: absolute;
+                   top: -19%;
+                   color:black ;
+}
+#details > h2 {
+                 font-weight: 100;
+                
+}
+#details h2 span {
+    font-weight: 900;
+   
+}
+#details h4{
+                 margin-top: 12px;
+                 margin-bottom: 18px;
+                 font-weight: 100;
+}
+#details input{
+                 font-size: 20px;
+                 border-radius: 10%;
+                 padding: 5px;
+                 border: 2px solid black;
+
+}
+#details > button{
+                   position:absolute; 
+                   left: 5px;
+                   top: 105%;
+                   font-size: 15px;
+                   padding: 6px;
+                   border-radius: 15px;
+                   background-color: rgba(255, 68, 0, 0.877);
+                   color: #fff;
+                   font-weight: bolder;
+                   border: 2px solid black;
+}
+#sample{
+          position: absolute;
+          top: 70%;
+          left: 51%;
+          transform: translate(-50%,-50%);
+}
+ #simg .b{ position: relative;
+            top: 10px;
+            width: 60px;
+            background-color: #f6f0f0;
+ }
